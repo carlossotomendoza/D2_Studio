@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "e69fbd0a-d0e4-e08b-638f-061ba382c444",
     "Name": "UsrRealtyTypeClassic_all",
-    "ModifiedOnUtc": "\/Date(1715887938000)\/",
+    "ModifiedOnUtc": "\/Date(1715888671000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "8efa7d26-8872-44d3-805a-53c45cfe5fe1",
@@ -10,10 +10,24 @@
     },
     "Columns": [
       {
+        "ColumnUId": "ffce13fe-5e4a-744c-e889-b3337ada7de4",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "UsrCode",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
         "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
-        "IsForceUpdate": false,
+        "IsForceUpdate": true,
         "IsKey": false,
         "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "Name",
         "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
       },
       {
@@ -22,20 +36,6 @@
         "IsKey": true,
         "ColumnName": "Id",
         "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
-      },
-      {
-        "ColumnUId": "ffce13fe-5e4a-744c-e889-b3337ada7de4",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "UsrCode",
-        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
-      },
-      {
-        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "Name",
-        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
       }
     ]
   }
